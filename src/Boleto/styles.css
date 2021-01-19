@@ -1,0 +1,15 @@
+.boleto-form {
+    background-color: rgb(71, 23, 81);
+    color: white;
+}
+
+.boleto-fieldset {
+    width: 700px;
+    margin: auto;
+    background-color: rgb(142, 43, 161);
+}
+
+.fieldset-legend {
+    font-size: 20px;
+    
+}

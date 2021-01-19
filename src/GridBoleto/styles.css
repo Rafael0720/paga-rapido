@@ -1,0 +1,14 @@
+.grid-boleto-container {
+    margin-left: 45px;
+    margin-right: 45px;    
+    background-color: white;
+}
+
+.grid-boleto-content {
+    color: rgb(71, 23, 81);
+}
+
+.grid-boleto-title {
+    color: rgb(71, 23, 81);
+    text-align: center;
+}
