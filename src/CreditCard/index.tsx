@@ -7,6 +7,7 @@ function CreditCard(){
                 <p>Valor: <input type="text"/> Código Cartão: <input type="text"/> <br/></p>
                <p>Validade Cartão: <input type="text"/>    Bandeira: <input type="text"/> <br/></p>
                 <p>Nome: <input type="text"/>    Nº Cartão: <input type="text"/> <br/></p>
+                <p className="credit-btn-enviar"><button>Enviar</button></p>
                 
             </fieldset>
         </div>        

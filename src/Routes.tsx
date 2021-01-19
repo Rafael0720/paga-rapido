@@ -18,13 +18,14 @@ function Routes () {
                 <>
                 <Home />
                 <Boleto />
-                <GridBoleto />
+                <GridHome />
                 </>
             </Route>
             <Route path="/card">
                 <>
                 <Home />
                 <CreditCard />
+                <GridHome />
                 </>
             </Route>
             <Route path="/">
@@ -32,7 +33,13 @@ function Routes () {
                 <Home />
                 <GridHome />
                 </>
-            </Route>            
+            </Route>  
+            <Route path="/grid-boleto">
+                <>
+                <Home />
+                <GridBoleto />
+                </>
+            </Route>           
         </Switch>
         <Footer />
        </BrowserRouter>

@@ -14,7 +14,7 @@ function Home() {
                     <div className="home-options">
                         <h3 className="home-subtitle">Escolha a forma de pagamento:</h3>                       
                         <Link to="/boleto">Boleto</Link> <br /> <br /> 
-                        <Link to="/card">Cartão Crédito</Link>                        
+                        <Link to="/card">Cartão Crédito</ Link>                       
                     </div>
                     <div className="home-grid">
                         
