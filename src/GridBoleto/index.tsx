@@ -1,22 +1,14 @@
-import { useEffect, useState } from 'react';
-import { fetchBoletos } from '../api';
-import BoletosReturn from './BoletosReturn';
-import './styles.css';
-import { PaymentBoleto } from './types';
+import './styles.css'
 
-function GridBoleto() {
-    const [boletos, setBoleto] = useState<PaymentBoleto>()
-    console.log(boletos)
-
-    useEffect(() => {
-        fetchBoletos().then(response => setBoleto(response.data)).catch()
-    }, [])
-
-    return (
-        <div className="boleto-return-container">
-            <BoletosReturn />
-        </div>
-    )
+function GridBoleto() {    
+        return (        
+            <div className="boleto-form">                 
+                <fieldset className="boleto-fieldset"> <legend className="fieldset-legend"><strong>Informações do boleto</strong></legend>
+                <p>Valor: <input type="text"/></p>
+                <p className="boleto-btn-enviar"><button>Enviar</button></p>
+                </fieldset>
+            </div>        
+        )    
 }
 
 export default GridBoleto;

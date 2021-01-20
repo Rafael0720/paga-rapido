@@ -1,14 +1,25 @@
-.grid-boleto-container {
-    margin-left: 45px;
-    margin-right: 45px;    
+.boleto-form {
     background-color: white;
+    color:  rgb(71, 23, 81);
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
-.grid-boleto-content {
-    color: rgb(71, 23, 81);
+.boleto-fieldset {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: rgb(230, 222, 222);
+   
 }
 
-.grid-boleto-title {
-    color: rgb(71, 23, 81);
+.fieldset-legend {
+    font-size: 20px;
+    
+}
+
+.boleto-btn-enviar {
     text-align: center;
 }

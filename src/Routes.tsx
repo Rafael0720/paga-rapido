@@ -2,10 +2,10 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Boleto from "./Boleto";
 import CreditCard from "./CreditCard";
 import Footer from "./Footer";
-import GridBoleto from "./GridBoleto";
 import GridHome from "./GridHome";
 import Home from "./Home";
 import Navbar from "./Navbar";
+import Orders from "./Orders";
 
 function Routes () {
     return (
@@ -13,14 +13,20 @@ function Routes () {
        <>
         <Navbar />        
         </>
-        <Switch>            
+        <Switch>                          
+            <Route path="/">
+                <>
+                <Home />
+                <GridHome />
+                </>
+            </Route> 
             <Route path="/boleto">
                 <>
                 <Home />
                 <Boleto />
                 <GridHome />
                 </>
-            </Route>
+            </Route> 
             <Route path="/card">
                 <>
                 <Home />
@@ -28,18 +34,11 @@ function Routes () {
                 <GridHome />
                 </>
             </Route>
-            <Route path="/">
+            <Route path="/orders">
                 <>
-                <Home />
-                <GridHome />
+                <Orders />
                 </>
-            </Route>  
-            <Route path="/grid-boleto">
-                <>
-                <Home />
-                <GridBoleto />
-                </>
-            </Route>           
+            </Route>                                        
         </Switch>
         <Footer />
        </BrowserRouter>
