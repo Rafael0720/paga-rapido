@@ -1,4 +1,4 @@
-.grid-boleto-container {
+.grid-card-container {
   background-color: white;
   color: rgb(71, 23, 81);
   margin-left: 45px;
@@ -8,27 +8,27 @@
   margin-top: 30px;
 }
 
-.boletos-list-container {
+.cards-list-container {
   display: flex;
   margin-left: 90px;
   padding-top: 30px;
   padding-bottom: 15px;
 }
 
-.boletos-list-items {
+.cards-list-items {
   background-color: rgb(230, 222, 222);
 }
 
-.boleto-item-paragraph {
+.card-item-paragraph {
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.boleto-item-title {
+.grid-card-title {
   text-align: center;
   background-color: rgb(230, 222, 222);
 }
 
-.grid-boleto-btn {
+.grid-card-btn {
   margin-left: 150px;
 }

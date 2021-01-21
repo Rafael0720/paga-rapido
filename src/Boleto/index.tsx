@@ -3,13 +3,12 @@ import "./styles.css";
 function Boleto() {
   return (
     <div className="boleto-form">
-      <fieldset className="boleto-fieldset">
-        {" "}
+      <fieldset className="boleto-fieldset">        
         <legend className="fieldset-legend">
-          <strong>Informações do boleto</strong>
+          <strong>Informações do Boleto</strong>
         </legend>
         <p>
-          Valor: <input type="text" />
+          Valor: <input type="text" id="txtValor" />
         </p>
         <p className="boleto-btn-enviar">
           <button>Enviar</button>

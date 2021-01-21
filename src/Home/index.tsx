@@ -13,9 +13,7 @@ function Home() {
             <h3 className="home-subtitle">Escolha a forma de pagamento:</h3>
             <Link to="/boleto">Boleto</Link> <br /> <br />
             <Link to="/card">Cartão Crédito</Link> <br /> <br />
-            <Link to="/gridBoleto">gridBoleto</Link> <br /> <br />
-            <Link to="/gridCard">gridCartão</Link>
-          </div>          
+          </div>
         </div>
       </div>
     </>

@@ -3,6 +3,7 @@ import Boleto from "./Boleto";
 import CreditCard from "./CreditCard";
 import Footer from "./Footer";
 import GridBoleto from "./GridBoleto";
+import GridCard from "./GridCard";
 import GridHome from "./GridHome";
 import Home from "./Home";
 import Navbar from "./Navbar";
@@ -32,6 +33,12 @@ function Routes() {
             <Home />
             <CreditCard />
             <GridHome />
+          </>
+        </Route>
+        <Route path="/gridCard">
+          <>
+            <Home />
+            <GridCard />
           </>
         </Route>
         <Route path="/">

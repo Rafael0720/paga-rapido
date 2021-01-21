@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Boleto } from "./types";
 
 type Props = {
@@ -15,30 +16,41 @@ function formatPrice(price: number) {
 function BoletoItem({ boleto }: Props) {
   return (
     <div className="boleto-item-container">
-      <p className="bolet-item-paragraph">dueDate: {boleto.dueDate}</p>
-      <p className="bolet-item-paragraph">bankName: {boleto.bankName}</p>
-      <p className="bolet-item-paragraph">bankCode: {boleto.bankCode}</p>
-      <p className="bolet-item-paragraph">agency: {boleto.agency}</p>
-      <p className="bolet-item-paragraph">agencyDigit: {boleto.agencyDigit}</p>
-      <p className="bolet-item-paragraph">account: {boleto.account}</p>
-      <p className="bolet-item-paragraph">
-        accountDigit: {boleto.accountDigit}
+      <h1 className="boleto-item-title">Transação no Boleto Encontrada</h1>
+
+      <p className="boleto-item-paragraph">
+        Data de Vencimento: {boleto.dueDate}
       </p>
-      <p className="bolet-item-paragraph">accept: {boleto.accept}</p>
-      <p className="bolet-item-paragraph">specie: {boleto.specie}</p>
-      <p className="bolet-item-paragraph">specieDoc: {boleto.specieDoc}</p>
-      <p className="bolet-item-paragraph">recipient: {boleto.recipient}</p>
-      <p className="bolet-item-paragraph">payee: {boleto.payee}</p>
-      <p className="bolet-item-paragraph">
-        titleSpecies: {boleto.titleSpecies}
+      <p className="boleto-item-paragraph">Nome do Banco: {boleto.bankName}</p>
+      <p className="boleto-item-paragraph">
+        Código Bancário: {boleto.bankCode}
       </p>
-      <p className="bolet-item-paragraph">
-        amount: {formatPrice(boleto.amount)}
+      <p className="boleto-item-paragraph">Agência: {boleto.agency}</p>
+      <p className="boleto-item-paragraph">
+        Dígito da Agência: {boleto.agencyDigit}
       </p>
-      <p className="bolet-item-paragraph">installment: {boleto.installment}</p>
-      <p className="bolet-item-paragraph">interest: {boleto.interest}</p>
-      <p className="bolet-item-paragraph">lateFee: {boleto.lateFee}</p>
-      <p className="bolet-item-paragraph">metadata: {boleto.metadata}</p>
+      <p className="boleto-item-paragraph">Conta: {boleto.account}</p>
+      <p className="boleto-item-paragraph">
+        Dígito da Conta: {boleto.accountDigit}
+      </p>
+      <p className="boleto-item-paragraph">Aceito: {boleto.accept}</p>
+      <p className="boleto-item-paragraph">Espécie: {boleto.specie}</p>
+      <p className="boleto-item-paragraph">Espécie Doc: {boleto.specieDoc}</p>
+      <p className="boleto-item-paragraph">Recebedor: {boleto.recipient}</p>
+      <p className="boleto-item-paragraph">Beneficiário: {boleto.payee}</p>
+      <p className="boleto-item-paragraph">
+        Título Espécies: {boleto.titleSpecies}
+      </p>
+      <p className="boleto-item-paragraph">
+        Valor: {formatPrice(boleto.amount)}
+      </p>
+      <p className="boleto-item-paragraph">Prestação: {boleto.installment}</p>
+      <p className="boleto-item-paragraph">Interesse: {boleto.interest}</p>
+      <p className="boleto-item-paragraph">Taxa de Atraso: {boleto.lateFee}</p>
+      <p className="boleto-item-paragraph">Metadados: {boleto.metadata}</p>
+      <Link to="/">
+        <button className="grid-boleto-btn">Voltar ao Menu Inicial</button>
+      </Link>
     </div>
   );
 }

@@ -1,26 +1,25 @@
 .grid-home-container {
-    margin-left: 45px;
-    margin-right: 45px;    
-    background-color: white;
-    margin-top: 30px;
-    padding-bottom: 15px;
+  margin-left: 45px;
+  margin-right: 45px;
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 15px;
 }
 
 .grid-home-title {
-    text-align: center;
-    color: rgb(71, 23, 81); 
-    background-color: rgb(230, 222, 222);
+  text-align: center;
+  color: rgb(71, 23, 81);
+  background-color: rgb(230, 222, 222);
 }
 
 .grid-home-subtitle {
-    margin-left: 90px;
+  margin-left: 90px;
 }
 
 .grid-home-paragraph {
-    margin-left: 90px;
+  margin-left: 90px;
 }
 
 .grid-home-paragraph-submit {
-    margin-left: 210px;
+  margin-left: 210px;
 }
-
