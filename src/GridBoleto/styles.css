@@ -1,25 +1,25 @@
-.boleto-form {
-    background-color: white;
-    color:  rgb(71, 23, 81);
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
+.grid-boleto-container {
+  background-color: white;
+  color: rgb(71, 23, 81);
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  margin-top: 30px;
 }
 
-.boleto-fieldset {
-    width: 700px;
-    margin: auto;
-    margin-bottom: 15px;
-    background-color: rgb(230, 222, 222);
-   
+.boletos-list-container {
+  display: flex;
+  margin-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
-.fieldset-legend {
-    font-size: 20px;
-    
+.boletos-list-items {
+  background-color: rgb(230, 222, 222);
 }
 
-.boleto-btn-enviar {
-    text-align: center;
+.bolet-item-paragraph {
+  margin-left: 15px;
+  margin-right: 15px;
 }

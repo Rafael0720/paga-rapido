@@ -5,7 +5,7 @@ function GridHome() {
         <div className="grid-home-container">
             <h1 className="grid-home-title">Buscar transações </h1>
             <h3 className="grid-home-subtitle">Preencha os dados da busca:</h3>
-            <p className="grid-home-paragraph">Escolhe a opção de busca: 
+            <p className="grid-home-paragraph">Escolhe a opção de busca:  
             <select name="" id="">
             <option value="PR"></option>   
             <option value="PR">Boleto</option>

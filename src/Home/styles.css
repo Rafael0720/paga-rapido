@@ -1,24 +1,17 @@
 .home-container {
-    height: auto;    
-    margin-left: 45px;
-    margin-right: 45px;
-    background-color: white;
-    color: rgb(71, 23, 81);    
-  }
+  height: auto;
+  margin-left: 45px;
+  margin-right: 45px;
+  background-color: white;
+  color: rgb(71, 23, 81);
+}
 
-  .home-title {
-      text-align: center;
-      background-color: rgb(230, 222, 222);
-  }
+.home-title {
+  text-align: center;
+  background-color: rgb(230, 222, 222);
+}
 
-  .home-options{
-     margin-left: 90px;     
-     padding-bottom: 20px;
-  }
-
- 
-  
-  
-
-
-  
+.home-options {
+  margin-left: 90px;
+  padding-bottom: 20px;
+}
