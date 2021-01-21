@@ -4,7 +4,7 @@ function Boleto() {
   return (
     <div className="boleto-form">
       <fieldset className="boleto-fieldset">        
-        <legend className="fieldset-legend">
+        <legend className="boleto-fieldset-legend">
           <strong>Informações do Boleto</strong>
         </legend>
         <p>

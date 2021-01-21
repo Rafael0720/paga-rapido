@@ -4,7 +4,7 @@ function CreditCard() {
   return (
     <div className="credit-form">
       <fieldset className="credit-fieldset">
-        <legend className="fieldset-legend">
+        <legend className="credit-fieldset-legend">
           <strong>Informações do Cartão</strong>
         </legend>
         <p>
